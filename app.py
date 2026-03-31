@@ -41,7 +41,7 @@ if st.button("Prediksi"):
         label = "Versicolor (1)"
     else:
         label = "Virginica (2)"
-st.success(f"Hasil Prediksi: **{label}**")
+    st.success(f"Hasil Prediksi: **{label}**")
 
 # ==========================================================
 # Cara Menjalankan Aplikasi Streamlit ini:
